@@ -33,7 +33,7 @@ services:
     build:
       dockerfile: ./docker/fusion.dockerfile
       context: .
-    image: irnx/fusion:v1.1
+    image: irnx/fusion:v1.2.0
     container_name: fusion1
     ports:
       - "8000"
@@ -46,7 +46,7 @@ services:
     build:
       dockerfile: ./docker/fusion.dockerfile
       context: .
-    image: irnx/fusion:v1.1
+    image: irnx/fusion:v1.2.0
     container_name: fusion2
     ports:
       - "8000"
@@ -59,7 +59,7 @@ services:
     build:
       dockerfile: ./docker/fusion.dockerfile
       context: .
-    image: irnx/fusion:v1.1
+    image: irnx/fusion:v1.2.0
     container_name: fusion3
     ports:
       - "8000"
