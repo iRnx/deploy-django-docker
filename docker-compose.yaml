@@ -7,6 +7,9 @@ services:
       context: .
     image: guniversity/nginx_fusion:v1
     container_name: nginx
+    command:
+      - sudo systemctl restart gunicorn
+      - sudo systemctl restart nginx
     ports:
       - "80:80"
     networks:
