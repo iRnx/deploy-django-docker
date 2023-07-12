@@ -82,9 +82,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'fusion_app',
-        'USER': 'fusion_user',
-        'PASSWORD': 'fusion_pass',
-        'HOST': 'pgfusion',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'database-1.c5km53s5uanl.sa-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
